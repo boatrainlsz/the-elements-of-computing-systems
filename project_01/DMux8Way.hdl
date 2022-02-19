@@ -1,7 +1,7 @@
 // This file is part of the materials accompanying the book 
 // "The Elements of Computing Systems" by Nisan and Schocken, 
 // MIT Press. Book site: www.idc.ac.il/tecs
-// File name: projects/01/DMux8Way.hdl
+// File name: tools/builtIn/DMux8Way.hdl
 
 /**
  * 8-way demultiplexor.  The 3-bit sel input selects the output to which 
@@ -14,7 +14,6 @@ CHIP DMux8Way {
     IN  in, sel[3];
     OUT a, b, c, d, e, f, g, h;
 
-    PARTS:
-    // Implementation missing.
+    BUILTIN DMux8Way;
 }
 

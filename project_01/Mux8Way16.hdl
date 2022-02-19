@@ -1,7 +1,7 @@
 // This file is part of the materials accompanying the book 
 // "The Elements of Computing Systems" by Nisan and Schocken, 
 // MIT Press. Book site: www.idc.ac.il/tecs
-// File name: projects/01/Mux8Way16.hdl
+// File name: tools/builtIn/Mux8Way16.hdl
 
 /**
  * 8-way 16-bit multiplexor.  
@@ -19,6 +19,5 @@ CHIP Mux8Way16 {
 
     OUT out[16];
 
-    PARTS: 
-   // Implementation missing.
+    BUILTIN Mux8Way16;
 }

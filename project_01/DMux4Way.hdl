@@ -1,7 +1,7 @@
 // This file is part of the materials accompanying the book 
 // "The Elements of Computing Systems" by Nisan and Schocken, 
 // MIT Press. Book site: www.idc.ac.il/tecs
-// File name: projects/01/DMux4Way.hdl
+// File name: tools/builtIn/DMux4Way.hdl
 
 /**
  * 4-way demultiplexor.  The 2-bit sel input selects the output to which 
@@ -14,7 +14,6 @@ CHIP DMux4Way {
     IN  in, sel[2];
     OUT a, b, c, d;
 
-    PARTS:
-    // Implementation missing.
+    BUILTIN DMux4Way;
 }
 
