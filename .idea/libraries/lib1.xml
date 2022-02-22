@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tecs-software-suite-2.5/bin/lib/Compilers.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tecs-software-suite-2.5/bin/lib/SimulatorsGUI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tecs-software-suite-2.5/bin/lib/TranslatorsGUI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tecs-software-suite-2.5/bin/lib/Simulators.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tecs-software-suite-2.5/bin/lib/Hack.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tecs-software-suite-2.5/bin/lib/AssemblerGUI.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tecs-software-suite-2.5/bin/lib/HackGUI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
