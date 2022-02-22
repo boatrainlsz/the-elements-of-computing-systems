@@ -8,8 +8,8 @@ CHIP Or {
     OUT out;
 
     PARTS:
-	Not(a=a,out=nota);
-    Not(b=b,out=notb);
-    And(a=nota,b=notb,out=and);
-    Not(and,out=out);
+	Not(in=a,out=nota);
+    Not(in=b,out=notb);
+    And(a=nota,b=notb,out=notab);
+    Not(in=notab,out=out);
 }
