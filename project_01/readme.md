@@ -5,3 +5,4 @@
 * [And Gate](And.hdl)
 * [Or Gate](Or.hdl)
 * [Xor Gate](Xor.hdl)
+* [Multiplexor Gate](Mux.hdl)

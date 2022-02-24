@@ -12,5 +12,9 @@ CHIP Mux {
     IN  a, b, sel;
     OUT out;
 
-    BUILTIN Mux;
+    PARTS:
+	Not(in=sel, out=notsel);
+	And(a=notsel, b=a, out=sela);
+	And(a=sel, b=b, out=selb);
+	Or(a=sela, b=selb, out=out);
 }
