@@ -8,4 +8,7 @@
 
 补码的特点在于
 
-1. ![image-20220226223630596](https://raw.githubusercontent.com/boatrainlsz/my-image-hosting/main/image-20220226223630596.png)
+![image-20220226223630596](https://raw.githubusercontent.com/boatrainlsz/my-image-hosting/main/image-20220226223630596.png)
+
+![image-20220226223714940](https://raw.githubusercontent.com/boatrainlsz/my-image-hosting/main/image-20220226223714940.png)
+
