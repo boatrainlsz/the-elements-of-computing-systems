@@ -1,18 +1,8 @@
-// This file is part of the materials accompanying the book 
-// "The Elements of Computing Systems" by Nisan and Schocken, 
-// MIT Press. Book site: www.idc.ac.il/tecs
-// File name: tools/builtIn/Mux.hdl
-
-/** 
- * Multiplexor.  If sel=0 then out = a else out = b.
- */
-
+/* Mux */
 CHIP Mux {
-
-    IN  a, b, sel;
-    OUT out;
-
-    PARTS:
+	IN a, b, sel;
+	OUT out;
+	PARTS:
 	Not(in=sel, out=notsel);
 	And(a=notsel, b=a, out=sela);
 	And(a=sel, b=b, out=selb);

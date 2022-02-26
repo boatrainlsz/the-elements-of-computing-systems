@@ -1,17 +1,7 @@
-// This file is part of the materials accompanying the book 
-// "The Elements of Computing Systems" by Nisan and Schocken, 
-// MIT Press. Book site: www.idc.ac.il/tecs
-// File name: tools/builtIn/Not.hdl
-
-/**
- * Not gate. out = not in. 
- */
-
+/* NOT */
 CHIP Not {
-
-    IN  in;
-    OUT out;
-
-    PARTS:
-	Nand(a=in,b=true,out=out);
+	IN in;
+	OUT out;
+	PARTS:
+	Nand(a=in, b=in, out=out);
 }
